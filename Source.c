@@ -34,7 +34,7 @@ int bigest(int* arr, int size)
 	int big = bigest(arr + 1, size - 1);
 	if (big<=arr[0]) return arr[0];
 	//if (big <= arr[size]) return arr[size];
-	else return big;
+	//else return big;
 
 }
 
